@@ -1,8 +1,5 @@
 /**
- * css 342
- * andrewbudihardja
- *
- * @param <T>
+ *@author Andrew Budihardja
  */
 class LinkedNode<T> implements Comparable<T>{
 

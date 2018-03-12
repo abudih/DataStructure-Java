@@ -1,7 +1,5 @@
 /**
- * css 342
- * @author andrewbudihardja
- *
+ * @author Andrew Budihardja
  * @param <T>
  */
 
@@ -19,7 +17,7 @@ public class Sorting<T>{
 	    node = node.next;
 	    sortedList.next = null;
 
-	    while(node != null) {
+	    while(node != null){
 	    	cmp++;
 	    	
 	        @SuppressWarnings("rawtypes")
@@ -32,7 +30,7 @@ public class Sorting<T>{
 	            sortedList = current;
 	            cmp++;
 	            exch++;
-	        } else {
+	        }else{
 
 	            LinkedNode search = sortedList;
 	            while(search.next != null && (Integer)current.data > (Integer)search.next.data)
@@ -48,7 +46,7 @@ public class Sorting<T>{
 	    return sortedList;
 	}
 	
-public static LinkedNode bubbleSort(LinkedNode head) {
+public static LinkedNode bubbleSort(LinkedNode head){
 		
 		if (head == null)
 	        System.out.println("An empty list is already sorted."); 
@@ -57,10 +55,10 @@ public static LinkedNode bubbleSort(LinkedNode head) {
 	    else {
 	        LinkedNode current = head;
 	        boolean swapDone = true;
-	        while (swapDone) {
+	        while (swapDone){
 	            cmp++;
 	        	swapDone = false;
-	            while (current != null) {
+	            while (current != null){
 	                cmp++;
 	            	if (current.getNext() != null && (Integer)current.data > (Integer)current.getNext().data) {
 	            		cmp++;
