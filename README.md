@@ -1,7 +1,9 @@
 # Java
 
-Each branch is a set of different projects. The files in these different branches are meant to be compiled locally and individually (all class files per branch). 
+This Repository has different orphan branches. The files in these different branches are meant to be compiled individually (all class files per branch). 
 
-11 Data Structure projects
+14 total orphan branches:
 
-3 projects
+11 Data Structure 
+
+3 other projects
