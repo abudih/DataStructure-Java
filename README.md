@@ -1,9 +1,6 @@
-# Java
+How to Run:
 
-This Repository has different orphan branches. The files in these different branches are meant to be compiled individually (all class files per branch). 
+Compile BallSimulator.java
 
-14 total orphan branches:
-
-11 Data Structure 
-
-3 other projects
+Demonstration program for simple simulation framework. Create a bunch of
+balls and let them wander around the screen. 
