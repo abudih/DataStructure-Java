@@ -1,9 +1,9 @@
-# Java
+How to run:
 
-This Repository has different orphan branches. The files in these different branches are meant to be compiled individually (all class files per branch). 
+Compile GameMain.java in the View folder
 
-14 total orphan branches:
+Simulates Tetris game with added music
 
-11 Data Structure 
-
-3 other projects
+2 package folders make up the project:
+1 Model folder for the Model of the GUI
+1 View folder for the Updates of the Model and to control the changes in the GUI.
